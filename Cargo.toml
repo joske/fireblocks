@@ -1,0 +1,13 @@
+[package]
+name = "fireblocks"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dotenv = "0.15"
+fireblocks-sdk = "0.4"
+# fireblocks-sdk = { git="https://github.com/dougEfresh/fireblocks-sdk-rs.git", branch="v2"}
+color-eyre = "0.6"
+tokio = { version = "1.43", features = ["full"] }
+regex = "1.11"
+bigdecimal = "0.3.1"
